@@ -60,7 +60,7 @@ extension UINavigationBar {
         self.scrollView = scrollView
         self.shadowImage = UIImage()
         self.tintColor = UIColor.white
-        self.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        self.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         scrollView.addObserver(self, forKeyPath: kContentOffset, options: .new, context: nil)
     }
     
